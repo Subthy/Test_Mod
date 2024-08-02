@@ -1,6 +1,7 @@
-// 1.20.1	2024-08-02T17:12:07.2051302	Item Models: testmod
+// 1.20.1	2024-08-02T20:44:13.7436282	Item Models: testmod
 84f4b6f4515b533970461edc8f1df7bba413fab3 assets/testmod/models/item/frog_black.json
 e6ee55c0bb978811a239f951a62927737865f282 assets/testmod/models/item/iron_scythe.json
+b86da675632850980fb6151776921e7a6a930dc8 assets/testmod/models/item/plant.json
 05dbb06f75bd7e6fd437c7c78ea4903261d403c6 assets/testmod/models/item/plate_boots.json
 064a2090effd6b6df21ee13789f03c3e60e3b601 assets/testmod/models/item/plate_chestplate.json
 b974581c44566fec0536c17e1c345714b11ac1be assets/testmod/models/item/plate_helmet.json

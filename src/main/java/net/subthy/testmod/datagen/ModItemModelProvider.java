@@ -27,6 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.IRON_SCYTHE);
         complexBlock(ModBlocks.Plushie_Allay.get());
         complexBlock(ModBlocks.Frog.get());
+        complexBlock(ModBlocks.PLANT.get());
 
     }
 

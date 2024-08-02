@@ -1,30 +1,30 @@
-[02Aug2024 17:12:00.857] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, testmod, --all, --output, C:\Users\krist\Downloads\test_mod\src\generated\resources, --existing, C:\Users\krist\Downloads\test_mod\src\main\resources]
-[02Aug2024 17:12:00.866] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[02Aug2024 17:12:00.955] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[02Aug2024 17:12:00.999] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/krist/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[02Aug2024 17:12:01.313] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[02Aug2024 17:12:01.317] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[02Aug2024 17:12:01.321] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[02Aug2024 17:12:01.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
-[02Aug2024 17:12:01.490] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[02Aug2024 17:12:02.562] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[02Aug2024 17:12:02.564] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, testmod, --all, --output, C:\Users\krist\Downloads\test_mod\src\generated\resources, --existing, C:\Users\krist\Downloads\test_mod\src\main\resources]
-[02Aug2024 17:12:02.793] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\krist\Downloads\test_mod\build\createSrgToMcp\output.srg
-[02Aug2024 17:12:03.032] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [testmod]
-[02Aug2024 17:12:06.249] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
-[02Aug2024 17:12:06.250] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
-[02Aug2024 17:12:06.295] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[02Aug2024 17:12:06.624] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[02Aug2024 17:12:06.625] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[02Aug2024 17:12:06.864] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[02Aug2024 17:12:06.871] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 6 ms
-[02Aug2024 17:12:06.872] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[02Aug2024 17:12:06.945] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 72 ms
-[02Aug2024 17:12:06.945] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[02Aug2024 17:12:07.069] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 124 ms
-[02Aug2024 17:12:07.069] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: testmod
-[02Aug2024 17:12:07.079] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: testmod finished after 9 ms
-[02Aug2024 17:12:07.079] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: testmod
-[02Aug2024 17:12:07.202] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: testmod finished after 122 ms
-[02Aug2024 17:12:07.202] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 337 ms
-[02Aug2024 17:12:07.212] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 13, old count: 14, new count: 14, removed stale: 0, written: 3
+[02Aug2024 20:44:05.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, testmod, --all, --output, C:\Users\krist\Downloads\test_mod\src\generated\resources, --existing, C:\Users\krist\Downloads\test_mod\src\main\resources]
+[02Aug2024 20:44:05.387] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[02Aug2024 20:44:05.498] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[02Aug2024 20:44:05.552] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/krist/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[02Aug2024 20:44:05.859] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[02Aug2024 20:44:05.864] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[02Aug2024 20:44:05.869] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[02Aug2024 20:44:05.875] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
+[02Aug2024 20:44:06.038] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[02Aug2024 20:44:07.288] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Aug2024 20:44:07.291] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, testmod, --all, --output, C:\Users\krist\Downloads\test_mod\src\generated\resources, --existing, C:\Users\krist\Downloads\test_mod\src\main\resources]
+[02Aug2024 20:44:07.619] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\krist\Downloads\test_mod\build\createSrgToMcp\output.srg
+[02Aug2024 20:44:07.958] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [testmod]
+[02Aug2024 20:44:12.449] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[02Aug2024 20:44:12.450] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[02Aug2024 20:44:12.516] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[02Aug2024 20:44:13.301] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[02Aug2024 20:44:13.301] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[02Aug2024 20:44:13.531] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[02Aug2024 20:44:13.534] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 2 ms
+[02Aug2024 20:44:13.534] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[02Aug2024 20:44:13.584] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 49 ms
+[02Aug2024 20:44:13.584] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[02Aug2024 20:44:13.724] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 139 ms
+[02Aug2024 20:44:13.724] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: testmod
+[02Aug2024 20:44:13.739] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: testmod finished after 14 ms
+[02Aug2024 20:44:13.739] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: testmod
+[02Aug2024 20:44:13.739] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: testmod finished after 0 ms
+[02Aug2024 20:44:13.739] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 208 ms
+[02Aug2024 20:44:13.749] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 11, old count: 13, new count: 12, removed stale: 0, written: 1
