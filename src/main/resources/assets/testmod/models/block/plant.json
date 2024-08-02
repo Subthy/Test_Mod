@@ -1,9 +1,12 @@
 {
   "loader": "forge:obj",
   "flip-v": true,
-  "model": "testmod:models/block/plant.obj",
+  "mtl_override": "testmod:models/obj/mtl/plant.mtl",
+  "model": "testmod:models/obj/plant.obj",
+  "render_type": "cutout",
+  "automatic_culling": false,
   "textures": {
-    "texture0": "testmod:block/plant",
+    "texture0": "testmod:textures/blocks/plant",
     "particle": "minecraft:block/dirt"
   }
 }
