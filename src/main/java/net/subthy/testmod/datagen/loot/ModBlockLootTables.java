@@ -16,8 +16,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-
-
+        this.dropSelf(ModBlocks.Plushie_Allay.get());
+        this.dropSelf(ModBlocks.Frog.get());
+        this.dropSelf(ModBlocks.PLANT.get());
 
     }
 

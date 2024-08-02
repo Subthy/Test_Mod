@@ -9,6 +9,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.subthy.testmod.block.ModBlocks;
 import net.subthy.testmod.items.ModItems;
 
 public class ModCreativeModeTabs {
@@ -25,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(new ItemStack(ModItems.PLATE_LEGGINGS.get()));
                         output.accept(new ItemStack(ModItems.PLATE_BOOTS.get()));
                         output.accept(new ItemStack(ModItems.IRON_SCYTHE.get()));
+
 
                     }).build());
 

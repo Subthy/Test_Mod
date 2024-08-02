@@ -19,4 +19,6 @@ import java.util.List;
                     new ForgeTier(2, 250, 3f, 7f, 14,
                             ModTags.Blocks.NEEDS_SCYTHE_TOOL, () -> Ingredient.of(Items.IRON_INGOT)),
                     new ResourceLocation(TestMod.MOD_ID, "iron_scythe"), List.of(Tiers.IRON), List.of());
+
+
 }

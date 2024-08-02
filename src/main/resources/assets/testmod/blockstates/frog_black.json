@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "testmod:block/frog_black",
+      "y": 180
+    },
+    "rotation=1": {
+      "model": "testmod:block/frog_black3",
+      "y": 270
+    },
+    "rotation=2": {
+      "model": "testmod:block/frog_black2",
+      "y": 270
+    },
+    "rotation=3": {
+      "model": "testmod:block/frog_black1",
+      "y": 270
+    },
+    "rotation=4": {
+      "model": "testmod:block/frog_black",
+      "y": 270
+    },
+    "rotation=5": {
+      "model": "testmod:block/frog_black3"
+    },
+    "rotation=6": {      
+    "model": "testmod:block/frog_black2"
+    },
+    "rotation=7": {
+      "model": "testmod:block/frog_black1"
+    },
+    "rotation=8": {
+      "model": "testmod:block/frog_black"
+    },
+    "rotation=9": {
+      "model": "testmod:block/frog_black3",
+      "y": 90
+    },
+    "rotation=10": {
+      "model": "testmod:block/frog_black2",
+      "y": 90
+    },
+    "rotation=11": {
+      "model": "testmod:block/frog_black1",
+      "y": 90
+    },
+    "rotation=12": {
+      "model": "testmod:block/frog_black",
+      "y": 90
+    },
+    "rotation=13": {
+      "model": "testmod:block/frog_black3",
+      "y": 180
+    },
+    "rotation=14": {
+      "model": "testmod:block/frog_black2",
+      "y": 180
+    },
+    "rotation=15": {
+      "model": "testmod:block/frog_black1",
+      "y": 180
+    }
+  }
+}

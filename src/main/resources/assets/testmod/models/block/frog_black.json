@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "testmod:block/night_light_frog",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "testmod:block/frog_black",
+		"particle": "testmod:block/frog_black"
+	}
+}

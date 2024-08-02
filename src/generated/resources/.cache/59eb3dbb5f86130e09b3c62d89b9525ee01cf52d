@@ -1,1 +1,4 @@
-// 1.20.1	2024-06-15T22:24:15.0555821	Loot Tables
+// 1.20.1	2024-08-01T23:49:25.0271156	Loot Tables
+ca62d32f27ce418b03a7ab213c2de03240511c70 data/testmod/loot_tables/blocks/frog_black.json
+a102f55a536df747b0a3223e834477be70ef9f52 data/testmod/loot_tables/blocks/plant.json
+5a67db1df20f61669256aab038343f84f668b524 data/testmod/loot_tables/blocks/plushie_allay.json

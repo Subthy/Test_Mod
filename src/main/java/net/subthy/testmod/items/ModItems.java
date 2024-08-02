@@ -26,7 +26,7 @@ public class ModItems {
 
     public static RegistryObject<Item> IRON_SCYTHE = ITEMS.register("iron_scythe",
             ()-> new ScytheItem(ModToolTiers.IRON_SCYTHE, new Item.Properties().durability(89)));
-
+    
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

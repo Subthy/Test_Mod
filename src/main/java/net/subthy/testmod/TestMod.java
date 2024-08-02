@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.subthy.testmod.block.ModBlocks;
 import net.subthy.testmod.effects.ModEffects;
 import net.subthy.testmod.enchantment.ModEnchantments;
 import net.subthy.testmod.items.ModItems;
@@ -37,6 +38,7 @@ public class TestMod
 
         ModCreativeModeTabs.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         ModEffects.register(modEventBus);
         ModEnchantments.register(modEventBus);

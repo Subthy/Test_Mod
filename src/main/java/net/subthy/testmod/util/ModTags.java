@@ -30,6 +30,7 @@ public class ModTags {
 
 
 
+
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(TestMod.MOD_ID, name));
         }

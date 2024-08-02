@@ -1,0 +1,9 @@
+{
+  "loader": "forge:obj",
+  "flip-v": true,
+  "model": "testmod:models/block/plant.obj",
+  "textures": {
+    "texture0": "testmod:block/plant",
+    "particle": "minecraft:block/dirt"
+  }
+}
