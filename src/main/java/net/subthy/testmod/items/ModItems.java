@@ -9,6 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.subthy.testmod.TestMod;
 import net.subthy.testmod.items.custom.PlateArmorItem;
 import net.subthy.testmod.items.custom.ScytheItem;
+import net.subthy.testmod.items.custom.UpdatedScytheItem;
 
 public class ModItems {
 
@@ -26,6 +27,9 @@ public class ModItems {
 
     public static RegistryObject<Item> IRON_SCYTHE = ITEMS.register("iron_scythe",
             ()-> new ScytheItem(ModToolTiers.IRON_SCYTHE, new Item.Properties().durability(89)));
+
+    public static RegistryObject<Item> IRONN_SCYTHE = ITEMS.register("ironn_scythe",
+            ()-> new UpdatedScytheItem(ModToolTiers.IRON_SCYTHE, new Item.Properties().durability(89)));
     
 
     public static void register(IEventBus eventBus) {
