@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.subthy.testmod.TestMod;
+import net.subthy.testmod.items.custom.IdentificationScroll;
 import net.subthy.testmod.items.custom.PlateArmorItem;
 import net.subthy.testmod.items.custom.ScytheItem;
 import net.subthy.testmod.items.custom.UpdatedScytheItem;
@@ -30,6 +31,9 @@ public class ModItems {
 
     public static RegistryObject<Item> IRONN_SCYTHE = ITEMS.register("ironn_scythe",
             ()-> new UpdatedScytheItem(ModToolTiers.IRON_SCYTHE, new Item.Properties().durability(89)));
+
+    public static RegistryObject<Item> IDENTIFICATION_SCROLL = ITEMS.register("identification_scroll",
+            () -> new IdentificationScroll(new Item.Properties()));
     
 
     public static void register(IEventBus eventBus) {

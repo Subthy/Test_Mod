@@ -8,7 +8,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.Style;
 import net.minecraft.network.chat.TextColor;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraftforge.api.distmarker.Dist;
@@ -33,11 +32,13 @@ import net.subthy.testmod.block.ModBlocks;
 import net.subthy.testmod.effects.ModEffects;
 import net.subthy.testmod.enchantment.ModEnchantments;
 import net.subthy.testmod.items.ModItems;
+import net.subthy.testmod.loot.ModLootModifiers;
 import net.subthy.testmod.util.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
 import java.io.File;
 import java.util.*;
+
 
 @Mod(TestMod.MOD_ID)
 @Mod.EventBusSubscriber(modid = TestMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
@@ -60,6 +61,7 @@ public class TestMod {
         ModItems.register(modEventBus);
         ModEffects.register(modEventBus);
         ModEnchantments.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
